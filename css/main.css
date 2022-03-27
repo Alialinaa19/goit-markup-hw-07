@@ -324,20 +324,20 @@ body {
   color: #000000;
 }
 
-.header-logo {
+.logo--light-theme {
   margin-right: 70px;
 }
 
-.logo-span {
+.logo__span {
   color: var(--accent-color);
 }
 
-.item-menu + .item-menu {
-  margin-left: 50px;
+.nav-list__item {
+  position: relative;
 }
 
-.item-menu {
-  position: relative;
+.nav-list__item + .nav-list__item {
+  margin-left: 50px;
 }
 
 .header-nav {
@@ -349,13 +349,13 @@ body {
           align-items: center;
 }
 
-.header-nav-link {
+.nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header-nav-link-item {
+.nav-list__link {
   color: var(--primary-text-color);
   -webkit-transition-property: color;
   transition-property: color;
@@ -365,16 +365,15 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-nav-link-item:hover,
-.header-nav-link-item:focus {
+.nav-list__link:hover, .nav-list__link:focus {
   color: var(--accent-color);
 }
 
-.header-nav-link-item:active {
+.nav-list__link:active {
   color: var(--accent-color);
 }
 
-.address-list-header {
+.address-list--header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -384,11 +383,11 @@ body {
           align-items: center;
 }
 
-.address-list-item + .address-list-item {
+.address-list__item + .address-list__item {
   margin-left: 50px;
 }
 
-.address-link-header {
+.address-list__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -406,22 +405,21 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-icon {
+.address-list__link:hover, .address-list__link:focus {
+  color: var(--accent-color);
+}
+
+.address-list__icon {
   vertical-align: middle;
   margin-right: 10px;
   fill: currentColor;
 }
 
-.address-link-header:hover,
-.address-link-header:focus {
+.nav-list__link--active {
   color: var(--accent-color);
 }
 
-.nav-link-active {
-  color: var(--accent-color);
-}
-
-.nav-link-active::after {
+.nav-list__link--active::after {
   content: "";
   display: block;
   position: absolute;
