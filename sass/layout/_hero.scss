@@ -1,0 +1,38 @@
+.hero {
+    background-color: #2F303A;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    text-align: center;
+
+    padding-bottom: 210px;
+    padding-top: 200px;
+
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, 
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../images/hero.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.button-hero {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: inherit;
+    background-color: var(--accent-color);
+    cursor: pointer;
+
+background: #2196F3;
+border-radius: 4px;
+min-width: 200px;
+height: 50px;
+border: transparent;
+}

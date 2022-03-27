@@ -1,0 +1,127 @@
+.footer {
+    background-color: #2F303A;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-logo {
+    color: var(--white-color);
+    font-style: normal;
+    display: block;
+    margin-bottom: 20px;
+}
+.footer-address-list-item {
+    color: var(--white-color);
+    font-style: normal;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.address-item-bottom:not(:last-child) {
+    margin-bottom: 9px;
+}
+.footer-address-list-item:hover,
+.footer-address-list-item:focus
+{
+    color: var(--white-color);
+}
+.address-list-item-color {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-links {display: flex;
+    align-items: baseline;
+}
+
+.social-footer {
+    margin-left: 70px;
+}
+
+.social-list-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.social-item-footer + .social-item-footer {
+    margin-left: 10px;
+}
+
+.social-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+margin-bottom: 20px;
+
+}
+
+.mail-title {
+    margin-bottom: 20px;
+}
+
+.social-link-footer {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form {
+margin-left: 93px;
+}
+
+.social-icon-footer {
+    fill: currentColor;
+}
+.social-link-footer:hover,
+.social-link-footer:focus {
+    background-color: #2196F3;
+}
+
+.small-form {
+    display: flex;
+
+}
+
+.footer-input {
+    width: 358px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background-color: transparent;
+margin-right: 12px;
+padding-left: 16px;
+}
+
+.footer-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-email {
+margin-left: 10px;
+}

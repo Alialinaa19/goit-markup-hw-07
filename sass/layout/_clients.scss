@@ -1,0 +1,51 @@
+.clients {
+    padding-top: 94px;
+    padding-bottom: 92px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+}
+
+.clients-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+margin-bottom: 50px;
+}
+
+.client-icon {
+    fill: currentColor;
+}
+
+.clients-link {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #AFB1B8 1px solid;
+    color: #AFB1B8;
+    border-radius: 4px;
+
+    transition-property: border, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+    .clients-item + .clients-item {
+    margin-left: 30px;
+    }
+
+    .clients-link:hover,
+    .clients-link:focus {
+        border: #2196F3 1px solid;
+        color: #2196F3;
+    }
