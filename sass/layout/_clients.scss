@@ -16,7 +16,7 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--primary-text-color);
 
 margin-bottom: 50px;
 }
@@ -38,14 +38,14 @@ margin-bottom: 50px;
     transition-property: border, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        border: var(--accent-color) 1px solid;
+        color: var(--accent-color);
+    }
 }
+
 
     .clients-item + .clients-item {
     margin-left: 30px;
-    }
-
-    .clients-link:hover,
-    .clients-link:focus {
-        border: #2196F3 1px solid;
-        color: #2196F3;
     }

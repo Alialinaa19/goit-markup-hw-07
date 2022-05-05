@@ -20,7 +20,7 @@
 
 
 .close {
-    background: #FFFFFF;
+    background: var(--white-color);
 border: 1px solid rgba(0, 0, 0, 0.1);
 padding-left: 10px;
 padding-right: 10px;
@@ -48,7 +48,7 @@ font-size: 20px;
 line-height: 1.15;
 text-align: center;
 
-color: #212121;
+color: var(--primary-text-color);
 margin-bottom: 12px;
 }
 
@@ -95,7 +95,7 @@ margin-top: 30px;
 .modal-check-text {
 font-size: 14px;
 line-height: 1.71;
-color: #757575;
+color: var(--light-text);
 display: flex;
 align-items: center;
 }
@@ -105,7 +105,7 @@ align-items: center;
     content: "";
     width: 16px;
     height: 15px;
-    border: 2px solid #212121;
+    border: 2px solid var(--primary-text-color);
     border-radius: 2px;
     display: block;
     margin-right: 8.38px;
@@ -133,7 +133,7 @@ font-size: 12px;
 line-height: 1.16;
 letter-spacing: 0.01em;
 
-color: rgba(117, 117, 117, 0.5);
+color: var(--for-placeholder);
 }
 
 
@@ -141,7 +141,7 @@ color: rgba(117, 117, 117, 0.5);
 font-size: 12px;
 line-height: 1.16;
 letter-spacing: 0.01em;
-color: #757575;
+color: var(--light-text);
 display: block;
 margin-bottom: 4px;
 }
@@ -162,7 +162,7 @@ margin-bottom: 4px;
 .modal {
     width: 528px;
     height: 581px;
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
 

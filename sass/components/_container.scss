@@ -5,3 +5,9 @@
     padding-right: 15px;
     margin: 0 auto;
 }
+.container--header {
+    display: flex;
+}
+.container--footer {display: flex;
+    align-items: baseline;
+}
