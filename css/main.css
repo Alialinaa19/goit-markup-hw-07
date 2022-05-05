@@ -160,7 +160,7 @@ body {
   padding-bottom: 12px;
   height: 120px;
   resize: none;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .modal-check-text {
@@ -190,6 +190,15 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.agreement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .modal-check:checked + .modal-check-text::before {
@@ -544,10 +553,18 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+  height: 70px;
   background: rgba(47, 48, 58, 0.8);
-  padding-top: 27px;
-  padding-bottom: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   left: 0%;
   bottom: 0%;
@@ -722,7 +739,7 @@ body {
 }
 
 .footer-address-list-item {
-  color: var(--white-color);
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   -webkit-transition-property: color;
   transition-property: color;
@@ -811,7 +828,7 @@ body {
 }
 
 .footer-form {
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .social-icon-footer {

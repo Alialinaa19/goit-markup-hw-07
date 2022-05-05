@@ -89,7 +89,7 @@ margin-top: 30px;
     padding-bottom: 12px;
     height: 120px;
     resize: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .modal-check-text {
@@ -115,6 +115,10 @@ align-items: center;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.agreement {
+display: flex;
+justify-content: center;
+}
 .modal-check:checked + .modal-check-text::before {
     background-image: url(../images/icon-check.svg);
     border: none;
